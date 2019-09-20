@@ -1,0 +1,50 @@
+/*Desktop view*/
+@media only screen and (min-width: 658px) {
+  h1 {
+     text-align:center;
+     font-size: 45px;
+  }
+  body {
+    text-align:center;
+    background-color: #92a8d1;
+    font-family: "Times New Roman", Times, serif;
+  }
+  input {
+    width: 60%;
+    border-radius: 7px;
+    margin: 15px 0;
+    padding: 8px;
+    text-align:center;
+    font-family: "Times New Roman", Times, serif;
+  }
+  form{
+    width:85%;
+    margin:auto;
+    text-align:center;
+  }
+}
+/*Mobile Devices*/
+@media only screen and (min-width:360px) {
+  h1 {
+     text-align:center;
+     font-size: 25px;
+  }
+  body {
+    text-align:center;
+    background-color: #92a8d1;
+    font-family: "Times New Roman", Times, serif;
+  }
+  input {
+    width: 40%;
+    border-radius: 4px;
+    margin: 12px 0;
+    padding: 7px;
+    text-align:center;
+    font-family: "Times New Roman", Times, serif;
+  }
+  form{
+    width:75%;
+    margin:auto;
+    text-align:center;
+  }
+}  
